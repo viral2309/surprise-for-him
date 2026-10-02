@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Surprise ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+
+
+
+   <audio id="backgroundMusic" loop>
+    <source src="./music/love-song.mp3" type="audio/mpeg">
+</audio>
+
+
+
+<button id="musicButton" class="music-button">
+    🎵 Music
+</button>
+
+
+
+
+
+    <main class="welcome-screen" id="screen1">
+
+        <div class="heart">❤️</div>
+
+        <p class="small-text">Hey you...</p>
+
+        <h1>I made something<br>just for you.</h1>
+
+        <p class="message">
+            There's a little surprise waiting for you.
+            <br>
+            So take a deep breath and tap the button. 🥺
+        </p>
+
+        <button id="openButton">
+            Open me ❤️
+        </button>
+
+    </main>
+
+
+    <!-- SECOND SCREEN -->
+
+    <main class="welcome-screen hidden" id="screen2">
+
+        <div class="heart">🥺</div>
+
+        <p class="small-text">Before you continue...</p>
+
+        <h1>Promise me<br>one thing?</h1>
+
+        <p class="message">
+            Read everything until the very end.
+            <br>
+            Because I made this entire little world just for you. ❤️
+        </p>
+
+        <button id="promiseButton">
+            I Promise ❤️
+        </button>
+
+    </main>
+
+
+<!-- THIRD SCREEN: OUR STORY -->
+
+<main class="story-screen hidden" id="screen3">
+
+    <p class="small-text">Chapter One</p>
+
+    <h1>Our Little Story ❤️</h1>
+
+    <p class="story-intro">
+        Some moments are small...
+        <br>
+        but somehow they become our favorites.
+    </p>
+
+
+    <!-- MEMORY 1 -->
+
+    <div class="memory-card">
+
+        <div class="memory-icon">🌸</div>
+
+        <p class="memory-number">MEMORY 01</p>
+
+        <h2>The Beginning</h2>
+
+        <p>
+            This is where our story started.
+            I didn't know it at the time,
+            but this little moment would become
+            the beginning of something really special.
+        </p>
+
+    </div>
+
+
+    <!-- MEMORY 2 -->
+
+    <div class="memory-card">
+
+        <div class="memory-icon">💬</div>
+
+        <p class="memory-number">MEMORY 02</p>
+
+        <h2>Our Conversations</h2>
+
+        <p>
+            From random conversations to those
+            talks that somehow lasted much longer
+            than they were supposed to...
+            I slowly started looking forward to you.
+        </p>
+
+    </div>
+
+
+    <!-- MEMORY 3 -->
+
+    <div class="memory-card">
+
+        <div class="memory-icon">😂</div>
+
+        <p class="memory-number">MEMORY 03</p>
+
+        <h2>The Little Things</h2>
+
+        <p>
+            The jokes, the teasing, the silly moments,
+            and all those tiny things that probably
+            don't mean much to anyone else...
+            but mean everything to me.
+        </p>
+
+    </div>
+
+
+    <!-- MEMORY 4 -->
+
+    <div class="memory-card">
+
+        <div class="memory-icon">❤️</div>
+
+        <p class="memory-number">MEMORY 04</p>
+
+        <h2>You Became Special</h2>
+
+        <p>
+            Somewhere along the way,
+            you stopped being just another person
+            in my life...
+            and became someone I never want to lose.
+        </p>
+
+    </div>
+
+
+    <button id="nextMemory">
+        There's more... ❤️
+    </button>
+
+</main>
+
+<!-- PHOTO GALLERY -->
+
+<main class="gallery-screen hidden" id="screen4">
+
+    <p class="small-text">Chapter Two</p>
+
+    <h1>Little Pieces of Us 📸</h1>
+
+    <p class="story-intro">
+        A few moments I never want to forget.
+    </p>
+
+
+    <div class="photo-grid">
+
+        <div class="photo-card">
+            <img src="images/photo1.jpg" alt="Our memory">
+            <p>One of my favorite moments ❤️</p>
+        </div>
+
+        <div class="photo-card">
+            <img src="images/photo2.jpg" alt="Our memory">
+            <p>A moment worth remembering 🥺</p>
+        </div>
+
+        <div class="photo-card">
+            <img src="images/photo3.jpg" alt="Our memory">
+            <p>Just us being us 😂</p>
+        </div>
+
+        <div class="photo-card">
+            <img src="images/photo4.jpg" alt="Our memory">
+            <p>And another memory I'll keep forever ❤️</p>
+        </div>
+
+    </div>
+
+
+    <button id="messageButton">
+        There's something I want to tell you → ❤️
+    </button>
+
+</main>
+
+<!-- LOVE LETTER SCREEN -->
+
+<main class="letter-screen hidden" id="screen5">
+
+    <div class="letter-icon">💌</div>
+
+    <p class="small-text">Chapter Three</p>
+
+    <h1>A Letter<br>For You</h1>
+
+    <div class="letter-card">
+
+        <p class="letter-greeting">
+            Hey you ❤️
+        </p>
+
+        <p>
+            I don't always know how to say everything
+            I feel, so I decided to write it here.
+        </p>
+
+        <p>
+            Thank you for being a part of my life.
+            Thank you for all the little moments,
+            the conversations, the laughs,
+            and everything in between.
+        </p>
+
+        <p>
+            You have become someone very special to me,
+            and I hope you always remember just how
+            much you mean to me.
+        </p>
+
+        <p>
+            No matter where life takes us,
+            I'll always be grateful for the memories
+            we've created together.
+        </p>
+
+        <p class="letter-ending">
+            With lots of love,<br>
+            <strong>viral❤️</strong>
+        </p>
+
+    </div>
+
+    <button id="reasonsButton">
+        There are a few more things... ❤️
+    </button>
+
+</main>
+
+
+<!-- REASONS SCREEN -->
+
+<main class="reasons-screen hidden" id="screen6">
+
+    <p class="small-text">Chapter Four</p>
+
+    <h1>Just A Few Reasons<br>I Love You ❤️</h1>
+
+    <p class="story-intro">
+        Tap each card...
+        <br>
+        There might be a little surprise inside. 👀
+    </p>
+
+
+    <div class="reasons-grid">
+
+        <div class="reason-card" onclick="showReason(this)">
+            <div class="reason-front">❤️</div>
+            <div class="reason-back">
+                <p>You make ordinary moments feel special.</p>
+            </div>
+        </div>
+
+
+        <div class="reason-card" onclick="showReason(this)">
+            <div class="reason-front">🥺</div>
+            <div class="reason-back">
+                <p>You somehow always make me smile.</p>
+            </div>
+        </div>
+
+
+        <div class="reason-card" onclick="showReason(this)">
+            <div class="reason-front">😂</div>
+            <div class="reason-back">
+                <p>Because being silly with you is one of my favorite things.</p>
+            </div>
+        </div>
+
+
+        <div class="reason-card" onclick="showReason(this)">
+            <div class="reason-front">🫶</div>
+            <div class="reason-back">
+                <p>Because you became someone I genuinely care about.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <button id="finalButton">
+        One Last Surprise → ❤️
+    </button>
+
+</main>
+
+
+<!-- FINAL SURPRISE -->
+
+<main class="final-screen hidden" id="screen7">
+
+    <div class="final-heart">❤️</div>
+
+    <p class="final-small">If you made it this far...</p>
+
+    <h1>There's one last thing<br>I want you to know.</h1>
+
+    <div class="typing-box">
+        <p id="typingText"></p>
+    </div>
+
+    <div class="final-message hidden" id="finalMessage">
+
+        <p>
+            Thank you for being a part of my life.
+        </p>
+
+        <p>
+            Thank you for every smile, every conversation,
+            every memory, and every little moment
+            that became special simply because you were there.
+        </p>
+
+        <p>
+            I don't know what the future holds,
+            but I know that I'm really grateful
+            that our paths crossed.
+        </p>
+
+        <p class="big-love">
+            You mean more to me than you know. ❤️
+        </p>
+
+        <p class="forever">
+            — Always remember that. 🫶
+        </p>
+
+    </div>
+
+</main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
