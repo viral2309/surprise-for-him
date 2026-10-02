@@ -220,10 +220,12 @@ button:hover {
     transform: rotate(2deg) scale(1.03);
 }
 
+
 .photo-card img {
     width: 100%;
-    aspect-ratio: 1 / 1;
+    height: 280px;
     object-fit: cover;
+    object-position: center top;
     border-radius: 8px;
     display: block;
     margin-bottom: 12px;
